@@ -1,0 +1,166 @@
+/* general */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  background: url("../images/diagonal-squares.png");
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+  
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+  
+p:last-child {
+  margin-bottom: 0;
+}
+  
+h1,
+h2,
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  color: #ADE333;
+}
+  
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #dddddd;
+}
+  
+h2,
+h3 {
+  font-size: 22px;
+}
+
+#main-container {
+  margin-top:20px;
+  padding-top: 20px;
+  min-height: calc(100vh - 70px);
+} 
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #DCFF37;
+  color: #343a40;
+}
+ 
+/* nav bar */
+.navbar,.navbar-expand-lg {
+  background-color:#ffffff;
+  border-bottom: 5px solid #DCFF37;
+}
+
+.fas,
+.fa-moon,
+.far,
+.fa-comment-alt{
+  color:#DCFF37;
+}
+
+.navbar,.navbar-expand-lg,
+.navbar-brand{
+  color: #ffffff;
+}
+   
+.navbar-nav a{
+  color: #666666;;
+  text-align: center;
+  font-size:16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* footer */
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #DCFF37;
+  height: 50px;  
+}
+
+/* index */
+#profilepic{
+  border-radius:50%;
+  float: left;
+  margin:0% 5% 0% 5%;
+  width : "200x" ;
+  height : "250px";
+}
+
+/* contact */
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #343a40;
+  cursor: pointer;
+  background: #DCFF37;
+  border: 0 none;
+}
+
+#message {
+  width: 100%;
+}
+
+/* portfolio */
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+  
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+  
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #343a40;
+  text-align: center;
+  background: #DCFF37;
+  border-bottom: 0;
+}
+  
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+ 
