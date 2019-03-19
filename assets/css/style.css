@@ -138,10 +138,15 @@ input[type=submit] {
   
 .work img {
   width: 100%;
+  height: auto;
   border: 0 none;
   opacity: 0.8;
 }
-  
+.work img #hangman{
+  /* background-repeat: no-repeat;
+  background-size: auto; */
+  /* height:auto; */
+}
 .work h3 {
   position: absolute;
   bottom: 20px;
