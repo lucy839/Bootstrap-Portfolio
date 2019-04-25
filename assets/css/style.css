@@ -108,6 +108,19 @@ footer {
   width : "200x" ;
   height : "250px";
 }
+#intro{
+  font-size:20px;
+}
+#contactLink{
+  text-decoration:none;
+  color: #343a40;
+}
+#contactInfo{
+  text-align:right;
+}
+#contactLink:hover{
+  color: #b1b1b1;
+}
 
 /* contact */
 input[type=submit] {
@@ -124,6 +137,11 @@ input[type=submit] {
 }
 
 /* portfolio */
+#githubLink{
+  width:274px;
+  text-decoration: none;
+  color:black;
+}
 .work {
   position: relative;
   float: left;
@@ -132,8 +150,9 @@ input[type=submit] {
   overflow: auto;
 }
 
-.work:nth-child(even) {
-  margin-right: 40px;
+.row1:nth-child(even), .row2:nth-child(odd) {
+  margin-left:20px;
+  margin-right: 20px;
 }
   
 .work img {
@@ -142,17 +161,13 @@ input[type=submit] {
   border: 0 none;
   opacity: 0.8;
 }
-.work img #hangman{
-  /* background-repeat: no-repeat;
-  background-size: auto; */
-  /* height:auto; */
-}
+
 .work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0;
+  margin-bottom: 12%;
   font-weight: 300;
   line-height: 30px;
   color: #343a40;
@@ -171,4 +186,37 @@ input[type=submit] {
  
 #rutgers{
   margin-right: 4.8%;
+}
+
+/* adjustment when viewed from ipad */ 
+@media screen and (max-width: 768px) {
+  .row1:nth-child(odd), .row2:nth-child(odd), .row3 {
+    margin-left:5%;
+    margin-right: 5%;
+  }
+  .row2:nth-child(even){
+    margin-left:3%;
+  }
+}
+/* adjustment when viewed from the phone */
+@media screen and (max-width: 640px) {
+  .row1{
+    margin-left:0;
+    margin-right:0;
+  }
+  .row2:nth-child(even), .row3{
+    margin-left:5%;
+  }
+ .main-section{
+   padding:2.5%;
+ }
+}
+@media screen and (max-width: 320px) {
+  .work{
+    width:250px;
+  }
+  .row1:nth-child(even){
+    margin-left:5%;
+  }
+ 
 }
