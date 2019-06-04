@@ -184,8 +184,9 @@ input[type=submit] {
   margin-right: 25px;
 }
  
-#rutgers{
-  margin-right: 4.8%;
+.row3:nth-child(even){
+  margin-left:2.3%;
+  margin-right: 2.3%;
 }
 
 /* adjustment when viewed from ipad */ 
