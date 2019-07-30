@@ -13,3 +13,5 @@ Enjoy!
 
 -  https://lucy839.github.io/Bootstrap-Portfolio/
 
+## Demo
+- ![Alt text](assets/images/demo.png?raw=true  "demo")
