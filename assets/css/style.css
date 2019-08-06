@@ -137,11 +137,13 @@ input[type=submit] {
 }
 
 /* portfolio */
-#githubLink{
+#githubLink a{
   width:274px;
   text-decoration: none;
   color:black;
+  text-shadow: 2px 2px 8px #DCFF37;
 }
+
 .work {
   position: relative;
   float: left;
@@ -150,7 +152,7 @@ input[type=submit] {
   overflow: auto;
 }
 
-.row1:nth-child(even), .row2:nth-child(odd) {
+.row1:nth-child(even), .row2:nth-child(odd),.row4:nth-child(odd) {
   margin-left:20px;
   margin-right: 20px;
 }
@@ -167,7 +169,7 @@ input[type=submit] {
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 12%;
+  margin-bottom: 25%;
   font-weight: 300;
   line-height: 30px;
   color: #343a40;
